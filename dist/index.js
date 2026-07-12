@@ -1,4 +1,4 @@
-"use strict";var n=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var i=n(function(h,t){
+"use strict";var n=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(a){throw (r=0, a)}};};var i=n(function(h,t){
 var p=require('@stdlib/stats-strided-dsnanmeanpn/dist').ndarray;function y(e,r,a,c){return p(e,r,a,c)}t.exports=y
 });var v=n(function(k,u){
 var f=require('@stdlib/strided-base-stride2offset/dist'),x=i();function j(e,r,a){return x(e,r,a,f(e,a))}u.exports=j
